@@ -1,4 +1,4 @@
-FROM bizzotech/frappe:8.3.0
+FROM bizzotech/frappe:latest
 MAINTAINER Emad Shaaban <emad@bizzotech.com>
 
 ENV ERPNEXT_BRANCH v8.3.0
