@@ -1,7 +1,7 @@
-FROM bizzotech/frappe:8.2.7
+FROM bizzotech/frappe:8.3.0
 MAINTAINER Emad Shaaban <emad@bizzotech.com>
 
-ENV ERPNEXT_BRANCH v8.2.4
+ENV ERPNEXT_BRANCH v8.3.0
 
 USER $FRAPPE_USER
 WORKDIR /home/$FRAPPE_USER/frappe-bench
